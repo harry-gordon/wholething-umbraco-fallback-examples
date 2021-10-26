@@ -13,6 +13,7 @@
         <PackageReference Include="Microsoft.ICU.ICU4C.Runtime" Version="68.2.0.6" />
         <PackageReference Include="Portfolio" Version="1.0.3" />
         <PackageReference Include="Wholething.FallbackImagePickerProperty" Version="1.0.4" />
+        <PackageReference Include="Wholething.FallbackTextProperty" Version="1.1.1-pre" />
         <RuntimeHostConfigurationOption Include="System.Globalization.AppLocalIcu" Value="68.2" />
     </ItemGroup>
 
