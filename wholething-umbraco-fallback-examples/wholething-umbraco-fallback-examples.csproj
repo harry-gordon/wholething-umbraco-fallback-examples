@@ -12,7 +12,7 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.ICU.ICU4C.Runtime" Version="68.2.0.9" />
         <PackageReference Include="Portfolio" Version="1.0.3" />
-        <PackageReference Include="Wholething.FallbackTextProperty" Version="0.2.9" />
+        <PackageReference Include="Wholething.FallbackTextProperty" Version="1.1.4-pre" />
         <RuntimeHostConfigurationOption Include="System.Globalization.AppLocalIcu" Value="68.2" />
     </ItemGroup>
 
