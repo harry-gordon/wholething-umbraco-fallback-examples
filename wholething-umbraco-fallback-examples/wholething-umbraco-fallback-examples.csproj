@@ -11,7 +11,7 @@
     <!-- Force windows to use ICU. Otherwise Windows 10 2019H1+ will do it, but older windows 10 and most if not all winodws servers will run NLS -->
     <ItemGroup>
         <PackageReference Include="Microsoft.ICU.ICU4C.Runtime" Version="68.2.0.9" />
-        <PackageReference Include="Portfolio" Version="1.0.3" />
+        <PackageReference Include="Portfolio" Version="1.0.4" />
         <PackageReference Include="Wholething.FallbackImagePickerProperty" Version="1.0.9" />
         <PackageReference Include="Wholething.FallbackTextProperty" Version="1.1.9-pre" />
         <RuntimeHostConfigurationOption Include="System.Globalization.AppLocalIcu" Value="68.2" />
@@ -37,6 +37,7 @@
 
     <PropertyGroup>
         <CopyRazorGenerateFilesToPublishDirectory>true</CopyRazorGenerateFilesToPublishDirectory>
+        <CopyRefAssembliesToPublishDirectory>true</CopyRefAssembliesToPublishDirectory>
     </PropertyGroup>
 
     <!-- Set this to true if ModelsBuilder mode is not InMemoryAuto-->
