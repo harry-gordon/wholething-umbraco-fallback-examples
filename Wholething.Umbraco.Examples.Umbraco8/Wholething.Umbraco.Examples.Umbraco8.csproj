@@ -295,7 +295,8 @@
       <HintPath>..\packages\UmbracoCms.Web.8.17.1\lib\net472\Umbraco.Web.UI.dll</HintPath>
     </Reference>
     <Reference Include="Wholething.FallbackTextProperty, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Wholething.FallbackTextProperty.1.1.9-pre\lib\net472\Wholething.FallbackTextProperty.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\wholething-fallback-text-property\Wholething.FallbackTextProperty\bin\Debug\net472\Wholething.FallbackTextProperty.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -385,11 +386,11 @@
     <Content Include="config\HealthChecks.config" />
     <Content Include="config\ClientDependency.config" />
     <Content Include="config\BackOfficeTours\getting-started.json" />
-    <Content Include="App_Plugins\FallbackTextstring\package.manifest" />
     <Content Include="App_Plugins\OsmMaps\package.manifest" />
     <Content Include="App_Plugins\StarterKit\backoffice\tours\create-content.json" />
     <Content Include="App_Plugins\StarterKit\backoffice\tours\data-structure.json" />
     <Content Include="App_Plugins\StarterKit\package.manifest" />
+    <Content Include="App_Plugins\FallbackTextstring\package.manifest" />
     <None Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
